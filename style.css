@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/*---------DE AICI INCEPE EDITAREA-----------*/
+
+
+
+
+
+/*NAVIGATIE*/
+
+header{position:relative;
+	box-shadow: 0px 10px 0px #151E26;
+	/*background-color: #1C2833;*/
+	background:linear-gradient(90deg, #152027,#1C2833);
+	height: 100px;
+	width: 100%;
+	top: 0px;
+
+}
+header nav {
+	float: center;
+}
+header nav ul li {
+    
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 2.15%;
+	text-align: center;
+
+}
+
+header nav a{
+	letter-spacing: 0,5px;   
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Calibri;
+	font-size: 1.07vw;
+}
+
+/*HIGHLIGHT*/
+header nav a:hover {
+	/*culoare highlight*/color: #DBDBDB;
+}
+header nav a::after {
+	/*durata*/ transition: all ease-in-out 250ms;
+	content: '';
+	display: block;
+	height: 1px;
+	width: 0%;
+	/*culoare subliniere*/background-color: #43607A;
+}
+
+header nav a:hover::after{
+	width: 100%
+}
+
+
+
+
+/*WORK*/
+
+body{border-style: solid;
+	border-color: white;
+	/*background-image: url("Imagini/low_poly.png");	
+	background-size:cover;*/
+    background-color: #0B0F13;
+	}
+
+
+
+
